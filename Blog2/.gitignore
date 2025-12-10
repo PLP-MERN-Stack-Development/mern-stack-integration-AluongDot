@@ -1,0 +1,42 @@
+# --- Environment Variables ---
+.env
+.env.local
+.env.development
+.env.production
+
+# --- Node Dependencies ---
+node_modules/
+
+# --- Logs ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# --- Build / Output ---
+dist/
+build/
+
+# --- Temporary Files ---
+*.tmp
+*.temp
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+
+# --- Uploads (if stored locally) ---
+uploads/
+public/uploads/
+
+# --- MongoDB local databases (optional, good practice) ---
+*.mongodb
+*.db
+dump/
